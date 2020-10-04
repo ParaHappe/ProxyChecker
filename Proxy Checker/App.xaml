@@ -1,0 +1,14 @@
+﻿<Application x:Class="WpfApp2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="RaleWayRegular">
+            <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/fonts/#Rawline Medium" />
+        </Style>
+        <Style x:Key="RaleWayBold">
+            <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/fonts/#Rawline SemiBold" />
+        </Style>
+    </Application.Resources>
+</Application>
